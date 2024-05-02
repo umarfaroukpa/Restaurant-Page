@@ -18,11 +18,12 @@
   "bugs": {
     "url": "https://github.com/umarfaroukpa/Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/umarfaroukpa/Restaurant-Page#readme",
+  "homepage": "http://github.com/umarfaroukpa/Restaurant-Page#readme",
   "devDependencies": {
     "css-loader": "^6.11.0",
     "favicons": "^7.2.0",
     "favicons-webpack-plugin": "^6.0.1",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "sass": "^1.70.0",
     "sass-loader": "^14.1.0",
