@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/umarfaroukpa/Restaurant-Page/issues"
   },
-  "homepage": "http://github.com/umarfaroukpa/Restaurant-Page",
+  "homepage": "http://github.com/umarfaroukpa/Restaurant-Page#readme",
   "devDependencies": {
     "css-loader": "^6.11.0",
     "favicons": "^7.2.0",
