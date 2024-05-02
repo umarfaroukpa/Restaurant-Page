@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto' sans-serif;
+
+}
+
+
+
+header {
+  background-color: #ee7453;
+
+}
+
+
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.navmenu h1 {
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+}
+
+.home-body {
+  background-image: url("/dist/assets/africa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-width: 100vw;
+  min-height: 100vh;
+
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  color: black;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.card-content p {
+  list-style: none;
+  padding: 0;
+}
+
+.card-content P {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card {
+  width: 40%;
+  height: 0%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+
+
+.menu-body {
+  background-color: #e3d2da;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ee7453;
+  padding-top: 30px;
+  min-height: 100vh;
+  min-width: 50vw;
+}
+
+.photo-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: left;
+  width: 50%;
+}
+
+.description h2 {
+  margin-top: 0;
+}
+
+.description hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 5px 0;
+}
+
+.description p {
+  margin: 5px 0;
+}
+
+.order-btn {
+  background-color: #901233;
+  opacity: 50%;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #bb0000;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background: rgb(67, 116, 80);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+}
+
+.mobile {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.navlink {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.navlink:hover {
+  color: #710109;
+}
+
+button {
+  transition: margin-top 750ms;
+  will-change: margin-top;
+  background: #710109;
+}
+
+
+button:focus {
+  outline: none;
+  transform: scale(1.1);
+  background-color: #fff;
+  color: black;
+  transform: translateY(10px);
+}
+
+button:hover {
+  background: #901233;
+}
+
+button:not(:disabled):not(.disabled):active {
+  background: #2e2e30;
+  /* when pressed color */
+}
+
+.contact-body {
+  background-image: url(/dist/food-gala/pyramid\ images.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  animation: fadeInOut 0.9s ease-in-out forwards;
+}
+
+.transparent {
+  background-color: #ee7453;
+  opacity: 70%;
+}
+
+.sub-contact {
+  padding: 20px;
+  text-align: center;
+
+}
+
+.social-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 500px;
+  padding: 20px;
+}
+
+
+
+#facebook,
+#twitter,
+#youtube,
+#whats-app {
+  padding: 2px;
+  width: 40px;
+  text-align: center;
+  margin: 5px 2px;
+  margin-left: 85px;
+
+
+}
+
+#facebook {
+  background-color: #3B5998;
+  color: #fff;
+
+}
+
+#twitter {
+  background: #55ACEE;
+}
+
+#youtube {
+  background: #bb0000;
+}
+
+#whats-app {
+  background: #128C7E;
+}
+
+.contact-me {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+}
+
+.contact-me h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.contact-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #901233;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bb0000;
+}
+
+
+footer {
+  text-align: center;
+  color: #fff;
+}
+
+.footer {
+  background-color: #ee7453;
+  padding: 10px;
+}
+
+
+.card {
+  opacity: 0;
+  animation: fadeInOut 0.5s ease-in-out forwards;
+}
+
+.menu-items {
+  perspective: 1000px;
+  animation: fadeInOut 0.9s ease-in-out forwards;
+}
+
+
+.photo-card {
+  transition: transform 0.5s ease;
+}
+
+
+.on-top {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card:hover {
+  transform: rotateY(10deg);
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .navmenu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navmenu.active {
+    left: 0;
+  }
+
+  .nav-link {
+    margin: 2.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .hamburger.active .mobile:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .mobile:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .mobile:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .card {
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .menu-items {
+    min-width: 90%;
+  }
+
+  .photo-card {
+    width: 90%;
+  }
+
+  .contact-me {
+    max-width: 90%;
+  }
+}
