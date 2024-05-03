@@ -35,7 +35,7 @@ header {
 }
 
 .home-body {
-  background-image: url("/dist/assets/c5a3951292ae0d10747b.jpg");
+  background-image: url("/dist/assets/africa\ \(2\).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -215,11 +215,10 @@ button:hover {
 
 button:not(:disabled):not(.disabled):active {
   background: #2e2e30;
-  /* when pressed color */
 }
 
 .contact-body {
-  background-image: url("/dist/assets/d78af71a8cb3ce62d458.jpeg");
+  background-image: url("/dist/assets/pyramid\ images.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
