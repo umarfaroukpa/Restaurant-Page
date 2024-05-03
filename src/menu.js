@@ -8,7 +8,7 @@ const menuPage = () => {
   menu.innerHTML = ` <div class="food-gala">
   <div class="menu-items"> 
       <div class="photo-card">
-        <img src="food-gala/nigerian-akara__1_-removebg-preview.png" alt="Photo">
+        <img src="/food-gala/nigerian-akara__1_-removebg-preview.png" alt="Photo">
         <div class="description">
           <h2>Akara</h2>
           <hr>
