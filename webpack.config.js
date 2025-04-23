@@ -9,9 +9,8 @@ module.exports = {
     another: './src/another-module.js',
   },
   performance: {
-    hints: false, // Disables warnings
-    // or set a higher limit
-    maxEntrypointSize: 500000, // 500 KiB
+    hints: false,
+    maxEntrypointSize: 500000,
     maxAssetSize: 500000,
   },
   devtool: 'source-map',
@@ -39,10 +38,11 @@ module.exports = {
       template: './src/template.html',
       title: 'Afri Dish',
     }),
+    // Only include this if you need to copy files that aren't handled by webpack directly
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'dist/assets', to: 'assets' },
-        { from: 'dist/food-gala', to: 'food-gala', noErrorOnMissing: true },
+        // If you have a food-gala folder to copy, make sure it exists in the source
+        { from: 'src/food-gala', to: 'food-gala', noErrorOnMissing: true },
       ],
     }),
   ],
@@ -50,9 +50,9 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: {
-      keep: /assets|food-gala/,  
+      keep: /assets|food-gala/,
     },
-    publicPath: '/',
+    publicPath: './', // Using relative path instead of absolute
   },
   optimization: {
     runtimeChunk: 'single',
