@@ -730,7 +730,7 @@ button.nav-link:focus {
   width: 150px;
   /* Adjusted for smaller screens */
   height: 150px;
-  margin-top: -20px;
+  margin-top: 10px;
   /* Adjusted margin */
   gap: 15px;
   /* Reduced gap */
