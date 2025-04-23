@@ -1,0 +1,1 @@
+{"version":3,"file":"another.bundle.js","mappings":"sIAEAA,QAAQC,IAAI,SAAO,CAAC,UAAW,SAAU,WAAY,K","sources":["webpack://restaurant-page/./src/another-module.js"],"sourcesContent":["import _ from 'lodash';\n\nconsole.log(_.join(['Another', 'module', 'loaded!'], ' '));"],"names":["console","log"],"sourceRoot":""}
